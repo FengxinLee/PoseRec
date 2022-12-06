@@ -1,20 +1,15 @@
 #!/usr/bin/env python
 # pylint: disable=W0201
 import argparse
-import time
-import cv2
 import numpy as np
 import pandas as pd
 import torch
-import torch.nn as nn
-import torch.optim as optim
 from video_side import PoseModel_Disentangle
 
 import pickle
-from sklearn import metrics
 import random
 import os
-import yaml
+
 
 def set_seed(seed=1):
     np.random.seed(seed)
