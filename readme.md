@@ -1,5 +1,5 @@
 # PoseRec
-Simple demo and model code of PoseRec: Human Pose Driven Object Effects Recommendation. The paper is available at https://arxiv.org/abs/2209.08353
+Simple demo and model implementation of PoseRec: Human Pose Driven Object Effects Recommendation. The paper is available at https://arxiv.org/abs/2209.08353
 
 
 ![image](./fig/Framework.jpg)
