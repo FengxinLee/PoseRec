@@ -13,4 +13,4 @@ The trained model:
   - input: pose tensor (N, C, T, V, M), M: the number of person, default is 1. --> (5, 4, 10, 33, 1)
   - output: video (pose) representation, (num_cat, num_pose_sample, emb_size_prototype) --> (4, 5, 64)
 
-For detailed model implementation, please refer to '''./model'''
+For detailed model implementation, please refer to './model'
